@@ -19,6 +19,22 @@ a{
 /* UTILITIES */
 
 /* HEADER */
+.header_container{
+    width: 100%;
+}
+
+
+.header_top{
+    width: 100%;
+    height: 40px;
+}
+
+.header_bottom{
+    width: 100%;
+    height: 60px;
+    /* DEBUG */
+    background-color: aquamarine;
+}
 
 /* MAIN */
 
