@@ -75,5 +75,17 @@ a{
     background-color: darkgreen;
 }
 
+/* BANNER-SECTION */
+.banner{
+width: 100%;
+    /* DEBUG */
+    background-color: darkgoldenrod;
+    min-height: 600px;
+}
+
+.ms_bg-darkgrey{
+    background-color: rgb(39, 33, 33);
+}
+
 
 /* FOOTER */
