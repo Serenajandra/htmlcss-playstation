@@ -19,7 +19,7 @@ a{
 /* UTILITIES */
 
 /* HEADER */
-.header_container{
+.ms_lg-container{
     width: 100%;
 }
 
@@ -37,6 +37,15 @@ a{
 }
 
 /* MAIN */
+/* JUMBOTRON */
+.jumbotron{
+    /* DEBUG */
+    min-height: 600px;
+    background-color: blueviolet;
+}
 
+.text_area{
+    bottom: 10%;
+}
 
 /* FOOTER */
