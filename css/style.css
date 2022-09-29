@@ -35,6 +35,10 @@ a{
     height: 40px;
 }
 
+.sony_logo{
+    width: 20%;
+}
+
 .header_bottom{
     width: 100%;
     height: 60px;
@@ -45,9 +49,10 @@ a{
 /* MAIN */
 /* JUMBOTRON */
 .jumbotron{
-    /* DEBUG */
-    min-height: 600px;
-    background-color: blueviolet;
+    width: 100%;
+    background-image: url(../img/jumbo-bg.png);
+    background-size: cover;
+    min-height: 500px;
 }
 
 .text_area{
@@ -59,14 +64,14 @@ a{
     /* DEBUG */
     background-color: chartreuse;
     border: 1px solid black;
-    min-height: 130px;
+    min-height: 110px;
 }
 
 /* MS_CONSOLE-SECTION */
 .console_img{
     /* DEBUG */
     background-color: chocolate;
-    min-height: 200px;
+    min-height: 100px;
 }
 
 /* ACCESSORIES-SECTION */
@@ -79,9 +84,14 @@ a{
 /* BANNER-SECTION */
 .banner{
 width: 100%;
+background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+background-size: cover;
     /* DEBUG */
-    background-color: darkgoldenrod;
     min-height: 600px;
+}
+
+.it-take-logo{
+    width:80%;
 }
 
 .ms_bg-darkgrey{

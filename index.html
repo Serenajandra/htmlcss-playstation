@@ -12,60 +12,82 @@
     <!-- header -->
     <div class="ms_lg-container">
         <header>
-            <div class="header_top bg-dark"></div>
-            <div class="header_bottom">
+            <div class="header_top bg-dark d-flex justify-content-end">
+                <img class="sony_logo p-2" src="img/sony_logo.svg" alt="">
+            </div>
+            <!-- Header-bottom -->
+            <div class="ms_lg-container">
                 <nav class="navbar navbar-expand-lg bg-light">
                     <div class="container-fluid">
-                      <a class="navbar-brand" href="#">Navbar</a>
+                      <a class="navbar-brand" href="#">
+                        <img src="img/play_logo.svg" alt="">
+                      </a>
+                      
                       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                       </button>
+                      
                       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                          <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="#">Link</a>
-                          </li>
-                          <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                              Dropdown
-                            </a>
-                            <ul class="dropdown-menu">
-                              <li><a class="dropdown-item" href="#">Action</a></li>
-                              <li><a class="dropdown-item" href="#">Another action</a></li>
-                              <li><hr class="dropdown-divider"></li>
-                              <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" ref="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Giochi</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" ref="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Hardware</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Servizi</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Novità</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Fai acquisti</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Supporto</a>
+                                </li>
                             </ul>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link disabled">Disabled</a>
-                          </li>
-                        </ul>
-                        <form class="d-flex" role="search">
-                          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                          <button class="btn btn-outline-success" type="submit">Search</button>
-                        </form>
                       </div>
+                      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link" aria-current="page" href="#">My PlayStation</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link bg-dark text-white" href="#">Accedi</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        <i class="fa-solid fa-magnifying-glass"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
-                  </nav>
-            </div>
+                </nav
+            </div>            
+            <!-- /header-bottom -->
         </header>
     </div>
     <!-- /header -->
-    
+
+    <!-- Main -->
     <Main>
+
         <!-- Jumbotron -->
-        <section class="ms_lg-container jumbotron position-relative">
-            <div class="row">
-                <div class="col-12 col-lg-4 position-absolute text_area p-4">
-                    <h2>Rompi il cerchio</h2>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus ipsa nemo fugit debitis atque asperiores odio et esse commodi ex distinctio repellendus eveniet excepturi obcaecati ratione vero pariatur, maxime perferendis!</p>
-                    <a  class="button" href="">Acquista ora</a>
+        <div class="ms_lg-container">
+            <section class=" jumbotron position-relative">
+                <div class="row">
+                    <div class="col-12 col-lg-4 position-absolute text_area p-4 text-white">
+                        <img src="img/returnal-hero-banner-logo.png" alt="">
+                        <h1>Rompi il cerchio</h1>
+                        <p>Rialzati dopo ogni sconfitta e affronta una nuova sfida con ogni rinascita in questo esplosivo thriller fantascientifico, disponibile in esclusiva su PS5.</p>
+                        <a  class="btn btn-danger rounded-pill" href="">Acquista ora</a>
+                    </div>
                 </div>
-            </div>
-        </section>
+            </section>
+        </div>
         <!-- /Jumbotron -->
 
         
@@ -75,32 +97,32 @@
                 <div class="row row-cols-2 row-cols-sm-3 row-cols-lg-6 g-3 mt-3">
                     <div class="col">
                         <div class="card ms_card">
-                            card
+                            <img src="img/returnal-listing-thumb-01-ps5.jpg" alt="">
                         </div>
                     </div>
                     <div class="col">
                         <div class=" card ms_card">
-                            card
+                            <img src="img/ratchet-and-clank-rift-apart-keyart.jpg" alt="">
                         </div>
                     </div>
                     <div class="col">
                         <div class="card ms_card">
-                            card
+                            <img src="img/returnal-listing-thumb-01-ps5.jpg" alt="">
                         </div>
                     </div>
                     <div class="col">
                         <div class="card ms_card">
-                            card
+                            <img src="img/ratchet-and-clank-rift-apart-keyart.jpg" alt="">
                         </div>
                     </div>
                     <div class="col">
                         <div class="card ms_card">
-                            card
+                            <img src="img/returnal-listing-thumb-01-ps5.jpg" alt="">
                         </div>
                     </div>
                     <div class="col">
                         <div class="card ms_card">
-                            card
+                            <img src="img/ratchet-and-clank-rift-apart-keyart.jpg" alt="">
                         </div>
                     </div>
 
@@ -124,7 +146,9 @@
                         <p>Sperimenta la nuova generazione di incredibili giochi PlayStation</p>
                         <a class="bg-primary text-white p-2" href="">Maggiori informazioni</a>
                     </div>
-                    <div class="col console_img"></div>
+                    <div class="col console_img">
+                        <img src="img/playstation-5-thumb.png" alt="">
+                    </div>
                 </div>
             </section>
             <!-- /Console-section -->
@@ -132,11 +156,31 @@
             <!-- Accessories-section -->
             <section class="container ms_accessories">
                 <div class="row row-cols-3 row-cols-md-5">
-                    <div class="col accessories-element"></div>
-                    <div class="col accessories-element"></div>
-                    <div class="col accessories-element"></div>
-                    <div class="col accessories-element"></div>
-                    <div class="col accessories-element"></div>
+                    <div class="col">
+                        <div class="accessories_element">
+                            <img src="img/playstation-5-thumb.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="accessories_element">
+                            <img src="img/joypad-thumb.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="accessories_element">
+                            <img src="img/headset-thumb.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="accessories_element">
+                            <img src="img/remote-thumb.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="accessories_element">
+                            <img src="img/camera-thumb.jpg" alt="">
+                        </div>
+                    </div>
                 </div>
             </section>
             <!-- /Accessories-section -->
@@ -147,7 +191,7 @@
             <section class=" banner position-relative ">
                 <div class="row text-white">
                     <div class="col-12 col-lg-4 position-absolute text_area ">
-                        <img src="" alt="">
+                        <img class="it-take-logo" src="img/it-takes-two-logo.png" alt="">
                         <h3>Un'avventura cooperativa selvaggia ti attende</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam molestiae odio, corrupti rem illo quas doloribus, optio itaque recusandae ab ea, fugit dolorem dolores magni! Voluptate, quasi alias. Earum, possimus!</p>
                         <a class="bg-danger text-white" href="">Acquista ora</a>
@@ -165,40 +209,64 @@
 
                 <div class="row row-cols-2 row-cols-md-3 row-cols-lg-6 g-3 m-4">
                     <div class="col">
-                        <div class=" card ms_card"></div>
+                        <div class=" card ms_card">
+                            <img src="img/tony-hawks-pro-skater-1-2-store-art.jpg" alt="">
+                        </div>
                     </div>
                     <div class="col">
-                        <div class=" card ms_card"></div>
+                        <div class=" card ms_card">
+                            <img src="img/crash-bandicoot-4-its-about-time-store-art.jpg" alt="">
+                        </div>
                     </div>
                     <div class="col">
-                        <div class=" card ms_card"></div>
+                        <div class=" card ms_card">
+                            <img src="img/tony-hawks-pro-skater-1-2-store-art.jpg" alt="">
+                        </div>
                     </div>
                     <div class="col">
-                        <div class=" card ms_card"></div>
+                        <div class=" card ms_card">
+                            <img src="img/crash-bandicoot-4-its-about-time-store-art.jpg" alt="">
+                        </div>
                     </div>
                     <div class="col">
-                        <div class=" card ms_card"></div>
+                        <div class=" card ms_card">
+                            <img src="img/tony-hawks-pro-skater-1-2-store-art.jpg" alt="">
+                        </div>
                     </div>
                     <div class="col">
-                        <div class=" card ms_card"></div>
+                        <div class=" card ms_card">
+                            <img src="img/crash-bandicoot-4-its-about-time-store-art.jpg" alt="">
+                        </div>
                     </div>
                     <div class="col">
-                        <div class=" card ms_card"></div>
+                        <div class=" card ms_card">
+                            <img src="img/tony-hawks-pro-skater-1-2-store-art.jpg" alt="">
+                        </div>
                     </div>
                     <div class="col">
-                        <div class=" card ms_card"></div>
+                        <div class=" card ms_card">
+                            <img src="img/crash-bandicoot-4-its-about-time-store-art.jpg" alt="">
+                        </div>
                     </div>
                     <div class="col">
-                        <div class=" card ms_card"></div>
+                        <div class=" card ms_card">
+                            <img src="img/tony-hawks-pro-skater-1-2-store-art.jpg" alt="">
+                        </div>
                     </div>
                     <div class="col">
-                        <div class=" card ms_card"></div>
+                        <div class=" card ms_card">
+                            <img src="img/crash-bandicoot-4-its-about-time-store-art.jpg" alt="">
+                        </div>
                     </div>
                     <div class="col">
-                        <div class=" card ms_card"></div>
+                        <div class=" card ms_card">
+                            <img src="img/tony-hawks-pro-skater-1-2-store-art.jpg" alt="">
+                        </div>
                     </div>
                     <div class="col">
-                        <div class=" card ms_card"></div>
+                        <div class=" card ms_card">
+                            <img src="img/crash-bandicoot-4-its-about-time-store-art.jpg" alt="">
+                        </div>
                     </div>
                 </div>
             </section>
@@ -215,7 +283,7 @@
                 <div class="row row-cols-1 row-cols-md-3 g-2">
                     <div class="col">
                         <div class="card">
-                            <img src="" alt="">
+                            <img src="img/ps4-slim-homepage-image-block.jpg" alt="">
                             <h4>PlayStation 4</h4>
                             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos, tempore aut ipsum dolore hic adipisci officia sed aliquam, quidem odit neque asperiores officiis, velit qui ab aliquid dolorem ea id!</p>
                             <a class="bg-primary text-white" href="">Scopri di più</a>
@@ -223,7 +291,7 @@
                     </div>
                     <div class="col">
                         <div class="card">
-                            <img src="" alt="">
+                            <img src="img/double11-202010-tw-psvr.jpg" alt="">
                             <h4>PlayStation 4</h4>
                             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos, tempore aut ipsum dolore hic adipisci officia sed aliquam, quidem odit neque asperiores officiis, velit qui ab aliquid dolorem ea id!</p>
                             <a class="bg-primary text-white" href="">Scopri di più</a>
@@ -231,7 +299,7 @@
                     </div>
                     <div class="col">
                         <div class="card">
-                            <img src="" alt="">
+                            <img src="img/dualshock-4-listing-thumb.jpg" alt="">
                             <h4>PlayStation 4</h4>
                             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos, tempore aut ipsum dolore hic adipisci officia sed aliquam, quidem odit neque asperiores officiis, velit qui ab aliquid dolorem ea id!</p>
                             <a class="bg-primary text-white" href="">Scopri di più</a>
@@ -246,14 +314,13 @@
         <div class="ms_gl-container play-plus my-3 mb-3">
             <div class="row">
                 <div class="col">
-                    <img src="" alt="">
-                    <h4 class="text-white">PlayStation Plus</h4>
+                    <img src="img/ps-plus-logo.png" alt="">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, vel! Perferendis obcaecati ratione nisi soluta et, repudiandae ipsum beatae eius. Quia error blanditiis rerum, commodi est sed recusandae optio. Numquam!</p>
                     <a class="text-primary" href="">Esplora PlayStation Plus</a>
                 </div>
-                <div class="col">
+                <div class="col d-none d-md-block">
                     <div>
-                        <img src="" alt="">
+                        <img src="img/ps-plus-april-monthly-games-featured-image-block.png" alt="">
                     </div>
                 </div>
             </div>
@@ -270,13 +337,19 @@
             <div class="container">
                 <div class="row row-cols-1 row-cols-md-3 g-3">
                     <div class="col">
-                        <div class="card ms_card"></div>
+                        <div class="card ms_card">
+                            <img src="img/playstation-store-games-under-20-spotlight.jpg" alt="">
+                        </div>
                     </div>
                     <div class="col">
-                        <div class="card ms_card"></div>
+                        <div class="card ms_card">
+                            <img src="img/playstation-store-golden-week-sale-spotlight.jpg" alt="">
+                        </div>
                     </div>
                     <div class="col">
-                        <div class="card ms_card"></div>
+                        <div class="card ms_card">
+                            <img src="img/playstation-store-free-to-play-spotlight.png" alt="">
+                        </div>
                     </div>
                 </div>
             </div>
@@ -288,14 +361,14 @@
             <div class="play-now my-3 mb-3">
                 <div class="row">
                     <div class="col">
-                        <img src="" alt="">
+                        <img src="img/ps-now-logo-two-column.png" alt="">
                         <h4 class="">PlayStation Plus</h4>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, vel! Perferendis obcaecati ratione nisi soluta et, repudiandae ipsum beatae eius. Quia error blanditiis rerum, commodi est sed recusandae optio. Numquam!</p>
                         <a class="text-primary" href="">Esplora PlayStation Plus</a>
                     </div>
-                    <div class="col">
+                    <div class="col d-none d-md-block">
                         <div>
-                            <img src="" alt="">
+                            <img src="img/ps-now-april-featured-image-block.png" alt="">
                         </div>
                     </div>
                 </div>
@@ -306,25 +379,35 @@
             <h3>Seguici sui social media</h3>
             <div class="row row-cols-2 row-cols-sm-4 g-3 my-3">
                 <div class="col">
-                    <div class="card ms_card"></div>
+                    <div class="card ms_card">
+                        <img src="img/facebook.jpg" alt="">
+                    </div>
                 </div>
                 <div class="col">
-                    <div class="card ms_card"></div>
+                    <div class="card ms_card">
+                        <img src="img/twitter.jpg" alt="">
+                    </div>
                 </div>
                 <div class="col">
-                    <div class="card ms_card"></div>
+                    <div class="card ms_card">
+                        <img src="img/instagram.jpg" alt="">
+                    </div>
                 </div>
                 <div class="col">
-                    <div class="card ms_card"></div>
+                    <div class="card ms_card">
+                        <img src="img/youtube.png" alt="">
+                    </div>
                 </div>
             </div>
         </section>
         <!-- /Social-media-section -->
 
         <!-- Footer-->
-        <div class="container-fluid">
+        <div class="container-fluid bg-primary">
             <div class="row row-cols-1 row-cols-lg-2">
-                <div class="col logo"></div>
+                <div class="col logo">
+                    <img src="img/ps-footer.svg" alt="">
+                </div>
                 <div class="col">
                     <div class="container">
                         <div class="row row-cols-1 row-cols-md-3">
@@ -355,7 +438,7 @@
             </div>
             <!-- Footer-bottom -->
             <div class="footer-bottom bg-primary text-white">
-                <img src="" alt="">
+                <img src="img/sie-logo.svg" alt="">
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio est, iste reiciendis culpa molestiae vitae neque doloremque ea ut ipsam voluptas debitis consectetur aut maxime voluptatibus eius ab placeat id!</p>
             </div>
             
