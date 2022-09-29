@@ -18,6 +18,12 @@ a{
 
 /* UTILITIES */
 
+/* DEBUGS */
+[class*="col-"],
+.col{
+    border: 1px solid black;
+}
+
 /* HEADER */
 .ms_lg-container{
     width: 100%;
@@ -47,5 +53,27 @@ a{
 .text_area{
     bottom: 10%;
 }
+
+.ms_card{
+    /* DEBUG */
+    background-color: chartreuse;
+    border: 1px solid black;
+    min-height: 130px;
+}
+
+/* MS_CONSOLE-SECTION */
+.console_img{
+    /* DEBUG */
+    background-color: chocolate;
+    min-height: 200px;
+}
+
+/* ACCESSORIES-SECTION */
+.accessories-element{
+    /* DEBUG */
+    min-height: 130px;
+    background-color: darkgreen;
+}
+
 
 /* FOOTER */
