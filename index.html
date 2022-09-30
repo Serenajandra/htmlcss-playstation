@@ -78,10 +78,10 @@
     <Main>
 
         <!-- Jumbotron -->
-        <div class="ms_lg-container">
-            <section class=" jumbotron position-relative">
+        <div class="jumbotron">
+            <section class=" container-fluid ">
                 <div class="row">
-                    <div class="col-12 col-lg-4 position-absolute text_area text-white px-sm-4">                        
+                    <div class="col-12 col-lg-4 text_area text-white px-sm-4">                        
                         <img class="returnal_logo_title" src="img/returnal-hero-banner-logo.png" alt="">
                         <h1 class="my-3">Rompi il cerchio</h1>
                         <p class="my-3">Rialzati dopo ogni sconfitta e affronta una nuova sfida con ogni rinascita in questo esplosivo thriller fantascientifico, disponibile in esclusiva su PS5.</p>
@@ -200,10 +200,10 @@
             </section>
             <!-- /Accessories-section -->
         </div>
-
-        <div class="ms_lg-container ms_bg-darkgrey">
-            <!-- Banner-section -->
-            <section class="banner">
+        <!-- Banner-section -->
+        <div class="ms_bg-darkgrey">
+            
+            <section class=" container-fluid banner">
                 <div class="row text-white">
                     <div class="col-12 col-lg-4 p-4 ">
                         <img class="it-take-logo mb-2" src="img/it-takes-two-logo.png" alt="">
@@ -325,34 +325,40 @@
         </div>
         <!-- Playstation-4-section -->
         <div class="container mt-4">    
-            <section class="playstation-4 text-center">
-                <div class="ms_play4_title">
+            <section class="playstation-4 ">
+                <div class="ms_play4_title text-center">
                     <h2>Esplora PlayStation 4</h2>
                     <p>Giochi incredibili e intrattenimento senza fine. Non c'è mai stato un momento migliore per giocare sulla tua PS4.</p>
                 </div>   
-                <div class="row row-cols-1 row-cols-md-3 g-2">
-                    <div class="col">
-                        <div class="card">
+                <div class="row row-cols-1 row-cols-md-3 g-3">
+                    <div class="col card">
+                        <div class="">
                             <img src="img/ps4-slim-homepage-image-block.jpg" alt="">
+                        </div>
+                        <div>
                             <h4>PlayStation 4</h4>
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos, tempore aut ipsum dolore hic adipisci officia sed aliquam, quidem odit neque asperiores officiis, velit qui ab aliquid dolorem ea id!</p>
-                            <a class="bg-primary text-white" href="">Scopri di più</a>
+                            <p>Giochi incredibili live su PS4, con 1TB di spazio di archiviazione</p>
+                            <a class="btn rounded-pill bg-primary text-white" href="">Scopri di più</a>
                         </div>
                     </div>
-                    <div class="col">
-                        <div class="card">
+                    <div class="col card">
+                        <div class="">
                             <img src="img/double11-202010-tw-psvr.jpg" alt="">
-                            <h4>PlayStation 4</h4>
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos, tempore aut ipsum dolore hic adipisci officia sed aliquam, quidem odit neque asperiores officiis, velit qui ab aliquid dolorem ea id!</p>
-                            <a class="bg-primary text-white" href="">Scopri di più</a>
+                        </div>
+                        <div>    
+                            <h4>PlayStation VR</h4>
+                            <p>Oltre 500 titoli ed esperienze di gioco. Scoprili tutti.</p>
+                            <a class=" btn rounded-pill bg-primary text-white" href="">Scopri di più</a>
                         </div>
                     </div>
-                    <div class="col">
-                        <div class="card">
+                    <div class="col card">
+                        <div class="">
                             <img src="img/dualshock-4-listing-thumb.jpg" alt="">
-                            <h4>PlayStation 4</h4>
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos, tempore aut ipsum dolore hic adipisci officia sed aliquam, quidem odit neque asperiores officiis, velit qui ab aliquid dolorem ea id!</p>
-                            <a class="bg-primary text-white" href="">Scopri di più</a>
+                        </div>
+                        <div>
+                            <h4>Accessori</h4>
+                            <p>Migliora la tua esperienza PS4 con una gamma di accessori ufficiali</p>
+                            <a class="btn rounded-pill bg-primary text-white" href="">Scopri di più</a>
                         </div>
                     </div>
                 </div>
@@ -361,16 +367,20 @@
         </div>
 
         <!-- Play-plus-section -->
-        <div class="ms_gl-container play-plus my-3 mb-3">
-            <div class="row">
-                <div class="col">
-                    <img src="img/ps-plus-logo.png" alt="">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, vel! Perferendis obcaecati ratione nisi soluta et, repudiandae ipsum beatae eius. Quia error blanditiis rerum, commodi est sed recusandae optio. Numquam!</p>
-                    <a class="text-primary" href="">Esplora PlayStation Plus</a>
-                </div>
-                <div class="col d-none d-md-block">
-                    <div>
-                        <img src="img/ps-plus-april-monthly-games-featured-image-block.png" alt="">
+        <div class="play-plus">
+            <div class="container-fluid  my-3 mb-3">
+                <div class="row g-0">
+                    <div class="col-12 col-md-7">
+                        <div class="playplus-text">
+                            <img class="ps-plus-logo" src="img/ps-plus-logo.png" alt="">
+                            <p>Migliora la tua esperienza PlayStation con l'accesso a multigiocatore online, giochi mensili, sconti esclusivi e altro ancora.</p>
+                            <a class="ms_btn-play-pus btn rounded-pill bg-light text-primary" href="">Esplora PlayStation Plus</a>
+                        </div>
+                    </div>
+                    <div class="col-12 d-none col-md-5 d-md-block">
+                        <div>
+                            <img src="img/ps-plus-april-monthly-games-featured-image-block.png" alt="">
+                        </div>
                     </div>
                 </div>
             </div>
@@ -379,13 +389,13 @@
 
         <!-- Sales-section -->
         <section>
-            <div class="container sales">
+            <div class="container sales text-center ms_mt-5rem">
                 <h3>Nuovi sconti sul PlayStation Store</h3>
-                <p>Sconti pazzeschi, collezioni curate e saldi stagionali su PS5, PS4 e PS VR, tutti in un unico posto.</p>
+                <p class="mt-3">Sconti pazzeschi, collezioni curate e saldi stagionali su PS5, PS4 e PS VR, tutti in un unico posto.</p>
             </div>
         
-            <div class="container">
-                <div class="row row-cols-1 row-cols-md-3 g-3">
+            <div class="container ms_mt-5rem">
+                <div class="row row-cols-1 row-cols-md-3 gx-3 gy-4">
                     <div class="col">
                         <div class="card ms_card">
                             <img src="img/playstation-store-games-under-20-spotlight.jpg" alt="">
@@ -407,16 +417,15 @@
         <!-- /Sales-section -->
 
         <!-- Play-now-section -->
-        <section class="container-fluid">
-            <div class="play-now my-3 mb-3">
+        <section class="ms_bg-colorblue">
+            <div class="container-fluid play-now my-3 mb-3">
                 <div class="row">
-                    <div class="col">
+                    <div class="col-12 col-md-7 playnow-text text-white">
                         <img src="img/ps-now-logo-two-column.png" alt="">
-                        <h4 class="">PlayStation Plus</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, vel! Perferendis obcaecati ratione nisi soluta et, repudiandae ipsum beatae eius. Quia error blanditiis rerum, commodi est sed recusandae optio. Numquam!</p>
-                        <a class="text-primary" href="">Esplora PlayStation Plus</a>
+                        <p>Ottieni l'accesso immediato a una vastissima raccolta di oltre 800 giochi per PS4, PS3 e PS2 su PS4 o PC Windows, con nuovi titoli aggiunti ogni mese.</p>
+                        <a class="btn rounded-pill bg-light" href="">Esplora PlayStation Plus</a>
                     </div>
-                    <div class="col d-none d-md-block">
+                    <div class="col-5 d-none d-md-block">
                         <div>
                             <img src="img/ps-now-april-featured-image-block.png" alt="">
                         </div>
@@ -424,6 +433,8 @@
                 </div>
             </div>
         </section>
+        <!-- /Play-now-section -->
+
         <!-- Social-media-section -->
         <section class="container">
             <h3>Seguici sui social media</h3>

@@ -1,3 +1,12 @@
+/* ROOT */
+:root{
+    --ms_grey: #bebcbb;
+    --ms_blue:#00439c;
+    --ms_dark: #1f1f1f;
+    --ms_darkblue: #161c3b;
+    --ms_bg_light: #d9dadc;
+}
+
 /* COMMONS */
 html{
     font-size: 100%;
@@ -30,6 +39,10 @@ a{
 
 .ms_active{
 border-bottom: 2px solid rgb(60, 60, 255);
+}
+
+.ms_mt-5rem{
+    margin-top: 5rem;
 }
 
 
@@ -66,8 +79,7 @@ header{
 }
 
 .text_area{
-    bottom: 5%;
-    left: 0;
+padding-top: 12rem;
 }
 
 .returnal_logo_title{
@@ -118,7 +130,6 @@ min-height: 400px;
 }
 
 /* PLAYSTATION4-SECTION */
-
 @media screen and (min-width:768px) {
     .ms_play4_title{
         width: 80%;
@@ -138,8 +149,28 @@ min-height: 400px;
 /* PLAY-PLUS-SECTION */
 .play-plus{
     /* DEBUG */
-    background-color: rgb(172, 152, 152);
+    background-color: var(--ms_grey);
 }
 
+.playplus-text>img{
+    width: 60%;
+}
+.playplus-text{
+    padding: 3rem 1rem 1rem;
+}
+
+.ms_btn-play-pus{
+background-color: var(--ms_bg_light);
+font-weight: 700;
+}
+
+/* PLAY-PLUS-NOW-BANNER */
+.ms_bg-colorblue{
+    background-color: var(--ms_darkblue);
+}
+
+.playnow-text{
+    padding: 5rem 2rem 1rem;
+}
 
 /* FOOTER */
