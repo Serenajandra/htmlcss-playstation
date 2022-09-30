@@ -24,8 +24,17 @@ a{
     border: 1px solid black;
 }
 
+.ms_opacity{
+    opacity: 0.7;
+}
+
+.ms_active{
+border-bottom: 2px solid rgb(60, 60, 255);
+}
+
+
 /* HEADER */
-.ms_lg-container{
+header{
     width: 100%;
 }
 
@@ -52,51 +61,79 @@ a{
     width: 100%;
     background-image: url(../img/jumbo-bg.png);
     background-size: cover;
+    background-position: center;
     min-height: 500px;
 }
 
 .text_area{
-    bottom: 10%;
-    left: 5%;
+    bottom: 5%;
+    left: 0;
 }
 
+.returnal_logo_title{
+    width:60%;
+}
+
+/* CARDS-SECTION */
 .ms_card{
     /* DEBUG */
-    background-color: chartreuse;
-    border: 1px solid black;
-    min-height: 110px;
 }
+
+/* NO-LIMITS-SECTION */
+.ms_no-limits{
+    margin-top: 6rem;
+    margin-bottom: 3rem;
+}
+
+
 
 /* MS_CONSOLE-SECTION */
 .console_img{
-    /* DEBUG */
-    background-color: chocolate;
-    min-height: 100px;
+
 }
 
 /* ACCESSORIES-SECTION */
-.accessories-element{
-    /* DEBUG */
-    min-height: 130px;
-    background-color: darkgreen;
+.accessories_element>img{
+    width: 70%;
+    
 }
+
 
 /* BANNER-SECTION */
 .banner{
 width: 100%;
 background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
 background-size: cover;
-    /* DEBUG */
-    min-height: 600px;
+background-position: center;
+min-height: 400px;
 }
 
 .it-take-logo{
-    width:80%;
+    width:60%;
 }
 
+/* GAMES-CARDS-SECTION */
 .ms_bg-darkgrey{
     background-color: rgb(39, 33, 33);
 }
+
+/* PLAYSTATION4-SECTION */
+
+@media screen and (min-width:768px) {
+    .ms_play4_title{
+        width: 80%;
+        margin: 0 auto;
+}
+}
+
+@media screen and (min-width:991px) {
+    .ms_play4_title{
+        width: 55%;
+        margin: 0 auto;
+}
+}
+
+
 
 /* PLAY-PLUS-SECTION */
 .play-plus{
