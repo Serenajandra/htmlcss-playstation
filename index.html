@@ -22,7 +22,7 @@
             <nav class="navbar navbar-expand-lg bg-light">
                 <div class="container-fluid">
                     <a class="navbar-brand" href="#">
-                        <img src="img/play_logo.svg" alt="">
+                       <img src="img/play_logo.svg" alt="" width="60" height="54">
                     </a>
                     
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -33,6 +33,11 @@
                           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                               <li class="nav-item dropdown">
                                   <a class="nav-link dropdown-toggle" ref="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Giochi</a>
+                                  <!-- <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                  </ul> -->
                               </li>
                               <li class="nav-item dropdown">
                                   <a class="nav-link dropdown-toggle" ref="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Hardware</a>
@@ -51,7 +56,8 @@
                               </li>
                           </ul>
                     </div>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                    <div class="collapse navbar-collapse flex-grow-0" id="navbarSupportedContent-right">
                           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                               <li class="nav-item">
                                   <a class="nav-link" aria-current="page" href="#">My PlayStation</a>
@@ -149,7 +155,7 @@
                         <a class="btn rounded-pill bg-primary text-white p-2 mb-1 mt-2" href="">Maggiori informazioni</a>
                     </div>
                     <div class="col-12 col-md-7 console_img">
-                        <img src="img/playstation-5-thumb.png" alt="">
+                        <img class="playstation-5-thumbs" src="img/playstation-5-thumb.png" alt="">
                     </div>
                 </div>
             </section>
@@ -158,41 +164,51 @@
             <!-- Accessories-section -->
             <section class="container ms_accessories mb-4">
                 <div class="row row-cols-3 row-cols-md-5">
-                    <div class="col text-center ms_active">
-                        <div class="accessories_element ">
-                            <img src="img/playstation-5-thumb.png" alt="">
+                    <div class="col text-center mb-auto ms_active">
+                        <div class="accessories_element">
+                            <a href="">
+                                <img src="img/playstation-5-thumb.png" alt="">
+                            </a>
                         </div>
                         <div>
                             <p>Console PS5</p>
                         </div>
                     </div>
-                    <div class="col text-center ms_opacity">
-                        <div class="accessories_element ">
-                            <img src="img/joypad-thumb.png" alt="">
+                    <div class="col text-center mb-auto ms_opacity">
+                        <div class="accessories_element">
+                            <a href="">
+                                <img src="img/joypad-thumb.png" alt="">
+                            </a>
                         </div>
                         <div>
                             <p>Controller Wirelwss DualSense&trade;</p>
                         </div>
                     </div>
-                    <div class="col text-center ms_opacity">
-                        <div class="accessories_element ">
-                            <img src="img/headset-thumb.png" alt="">
+                    <div class="col text-center mb-auto ms_opacity">
+                        <div class="accessories_element">
+                            <a href="">
+                                <img src="img/headset-thumb.png" alt="">
+                            </a>
                         </div>
                         <div>
                             <p>Cuffie wireless con microfono PULSE3&trade;</p>
                         </div>
                     </div>
-                    <div class="col text-center ms_opacity">
-                        <div class="accessories_element ">
-                            <img src="img/remote-thumb.png" alt="">
+                    <div class="col text-center mb-auto ms_opacity">
+                        <div class="accessories_element">
+                            <a href="">
+                                <img src="img/remote-thumb.png" alt="">
+                            </a>
                         </div>
                         <div>
                             <p>Telecomando Media</p>
                         </div>
                     </div>
-                    <div class="col text-center ms_opacity">
-                        <div class="accessories_element ">
-                            <img src="img/camera-thumb.jpg" alt="">
+                    <div class="col text-center mb-auto ms_opacity">
+                        <div class="accessories_element">
+                            <a href="">
+                                <img src="img/camera-thumb.jpg" alt="">
+                            </a>
                         </div>
                         <div>Telecamera HD</div>
                     </div>
@@ -202,7 +218,6 @@
         </div>
         <!-- Banner-section -->
         <div class="ms_bg-darkgrey">
-            
             <section class=" container-fluid banner">
                 <div class="row text-white">
                     <div class="col-12 col-lg-4 p-4 ">
@@ -224,96 +239,98 @@
 
                 <div class="row row-cols-2 row-cols-md-3 row-cols-lg-6 g-3 ">
                     <div class="col">
-                        <div class=" card ms_card">
-                            <img src="img/tony-hawks-pro-skater-1-2-store-art.jpg" alt="">
+                        <div >
+                            <a href="">
+                                <img class=" ms_card" src="img/tony-hawks-pro-skater-1-2-store-art.jpg" alt="">
+                            </a>
                         </div>
                         <div>
                             <p>Tony Hawks&trade; Pro Skater&trade; 1 + 2</p>
                         </div>
                     </div>
                     <div class="col">
-                        <div class=" card ms_card">
-                            <img src="img/crash-bandicoot-4-its-about-time-store-art.jpg" alt="">
+                        <div>
+                            <img class="ms_card" src="img/crash-bandicoot-4-its-about-time-store-art.jpg" alt="">
                         </div>
                         <div>
                             <p>Crash Bandicoot 4: It's About Time</p>
                         </div>
                     </div>
                     <div class="col">
-                        <div class=" card ms_card">
-                            <img src="img/tony-hawks-pro-skater-1-2-store-art.jpg" alt="">
+                        <div >
+                            <img class="ms_card" src="img/tony-hawks-pro-skater-1-2-store-art.jpg" alt="">
                         </div>
                         <div>
                             <P>Tony Hawks&trade; Pro Skater&trade; 1 + 2</P> 
                         </div>
                     </div>
                     <div class="col">
-                        <div class=" card ms_card">
-                            <img src="img/crash-bandicoot-4-its-about-time-store-art.jpg" alt="">
+                        <div >
+                            <img class="ms_card" src="img/crash-bandicoot-4-its-about-time-store-art.jpg" alt="">
                         </div>
                         <div>
                             <p>Crash Bandicoot 4: It's About Time</p>
                         </div>
                     </div>
                     <div class="col">
-                        <div class=" card ms_card">
-                            <img src="img/tony-hawks-pro-skater-1-2-store-art.jpg" alt="">
+                        <div >
+                            <img class="ms_card" src="img/tony-hawks-pro-skater-1-2-store-art.jpg" alt="">
                         </div>
                         <div>
                             <p>Tony Hawks&trade; Pro Skater&trade; 1 + 2</p> 
                         </div>
                     </div>
                     <div class="col">
-                        <div class=" card ms_card">
-                            <img src="img/crash-bandicoot-4-its-about-time-store-art.jpg" alt="">
+                        <div >
+                            <img class="ms_card" src="img/crash-bandicoot-4-its-about-time-store-art.jpg" alt="">
                         </div>
                         <div>
                             <p>Crash Bandicoot 4: It's About Time</p>
                         </div>
                     </div>
                     <div class="col">
-                        <div class=" card ms_card">
-                            <img src="img/tony-hawks-pro-skater-1-2-store-art.jpg" alt="">
+                        <div >
+                            <img class="ms_card" src="img/tony-hawks-pro-skater-1-2-store-art.jpg" alt="">
                         </div>
                         <div>
                             <p>Tony Hawks&trade; Pro Skater&trade; 1 + 2</p> 
                         </div>
                     </div>
                     <div class="col">
-                        <div class=" card ms_card">
-                            <img src="img/crash-bandicoot-4-its-about-time-store-art.jpg" alt="">
+                        <div >
+                            <img class="ms_card" src="img/crash-bandicoot-4-its-about-time-store-art.jpg" alt="">
                         </div>
                         <div>
                             <p>Crash Bandicoot 4: It's About Time</p>
                         </div>
                     </div>
                     <div class="col">
-                        <div class=" card ms_card">
-                            <img src="img/tony-hawks-pro-skater-1-2-store-art.jpg" alt="">
+                        <div >
+                            <img class="ms_card" src="img/tony-hawks-pro-skater-1-2-store-art.jpg" alt="">
                         </div>
                         <div>
                             <p>Tony Hawks&trade; Pro Skater&trade; 1 + 2</p> 
                         </div>
                     </div>
                     <div class="col">
-                        <div class=" card ms_card">
-                            <img src="img/crash-bandicoot-4-its-about-time-store-art.jpg" alt="">
+                        <div >
+                            <img class="ms_card" src="img/crash-bandicoot-4-its-about-time-store-art.jpg" alt="">
                         </div>
                         <div>
                             <p>Crash Bandicoot 4: It's About Time</p>
                         </div>
                     </div>
                     <div class="col">
-                        <div class=" card ms_card">
-                            <img src="img/tony-hawks-pro-skater-1-2-store-art.jpg" alt="">
+                        <div>
+                            <img class="ms_card" src="img/tony-hawks-pro-skater-1-2-store-art.jpg" alt="">
                         </div>
                         <div>
                             <p>Tony Hawks&trade; Pro Skater&trade; 1 + 2</p> 
                         </div>
                     </div>
                     <div class="col">
-                        <div class=" card ms_card">
-                            <img src="img/crash-bandicoot-4-its-about-time-store-art.jpg" alt="">
+                        <div>
+                            <img class="ms_card" src="img/crash-bandicoot-4-its-about-time-store-art.jpg" alt="">
                         </div>
                         <div>
                             <p>Crash Bandicoot 4: It's About Time</p>
@@ -331,7 +348,7 @@
                     <p>Giochi incredibili e intrattenimento senza fine. Non c'è mai stato un momento migliore per giocare sulla tua PS4.</p>
                 </div>   
                 <div class="row row-cols-1 row-cols-md-3 g-3">
-                    <div class="col card">
+                    <div class="col">
                         <div class="">
                             <img src="img/ps4-slim-homepage-image-block.jpg" alt="">
                         </div>
@@ -341,7 +358,7 @@
                             <a class="btn rounded-pill bg-primary text-white" href="">Scopri di più</a>
                         </div>
                     </div>
-                    <div class="col card">
+                    <div class="col">
                         <div class="">
                             <img src="img/double11-202010-tw-psvr.jpg" alt="">
                         </div>
@@ -351,7 +368,7 @@
                             <a class=" btn rounded-pill bg-primary text-white" href="">Scopri di più</a>
                         </div>
                     </div>
-                    <div class="col card">
+                    <div class="col">
                         <div class="">
                             <img src="img/dualshock-4-listing-thumb.jpg" alt="">
                         </div>
