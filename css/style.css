@@ -75,6 +75,23 @@ header{
     width: 50%;
 }
 
+.chevron{
+   width: 0.8rem;
+   position: absolute;
+   right:0%;
+   top: 50%;
+   transform: translateY(-50%);
+}
+.sub_menu{
+    width: 10rem;
+    display: none;
+}
+
+.sub_menu-active:hover .sub_menu{
+    display: block;
+}
+
+
 /* .ms_dropdown-toggle::after{
     content: url(../img/chevron-down-solid.svg);
     width: 10%;
