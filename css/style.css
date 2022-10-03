@@ -61,10 +61,10 @@ header{
     width: 10%;
 }
 
-/* .btn_dark:hover{
-    border: 1px solid;
-
-} */
+.ms_border-line:hover{
+    border: 1px solid black;
+    border-radius: 50px;
+}
 
 .header_bottom{
     width: 100%;
